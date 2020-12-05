@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+body , html {
+    width : 100%;
+    margin : 0;
+    padding : 0;
+}
+/* Style the navbar */
+#navbar {
+    height : 10vh;
+    width : 100%;
+    overflow: hidden;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 1000, bold;
+    font-size: 17px;
+    transform: translate(0% , 25%);
+    float: right;
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px;
+    padding-right: 30px;
+    text-decoration: none;
+  }
+
+.navbar a:hover {
+  color: aqua;
+  box-shadow: grey;
+}
+
+.navbar a:active{
+  color: gray;
+}
+
+.logo {
+  padding-left: 20px;
+}
+/*
+.map-rsponsive{
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-rsponsive iframe{
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+*/
+
+
+.map {
+  margin-top : 2vh;
+  /* right : 70%;
+  top : 50%; */
+  transform : translate(5% , 0%);
+  border: none;
+  background: none;
+  overflow: hidden;
+}
+
+.dropdown {
+  margin-top: 4vh;
+  margin-left: 88%;
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+/*สำหรับหน้าอื่น ยกเว้น knowlegde & aboutus */
+
+
+body, html {
+  font-family:'Merriweather+Sans', sans-serif;
+    height:100%;
+    width : 100%;
+    margin : 0;
+    padding : 0;
+
+}
+/* Style the navbar */
+#navbar {
+    height : 10vh;
+    width : 100%;
+    overflow: hidden;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 1000, bold;
+    font-size: 17px;
+    transform: translate(0% , 25%);
+    float: right;
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px;
+    padding-right: 30px;
+    text-decoration: none;
+  }
+
+.navbar a:hover {
+  color: aqua;
+  box-shadow: grey;
+}
+
+.navbar a:active{
+  color: gray;
+}
+
+.logo {
+  padding-left: 20px;
+}
+
+
+/*.bg{
+  background-image: url(img/CPR.jpg);
+  width:100%;
+  opacity: 50%;
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  /*background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}*/
+
+.info{
+  opacity: 100%;
+  padding-left: 50px;
+}
+
+.info sc one{
+  padding-left: 50%;
+}
+
+
+h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+footer{
+  text-align: center;
+  text-transform: lowercase;
+}
